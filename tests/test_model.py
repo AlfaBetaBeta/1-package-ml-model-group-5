@@ -63,7 +63,7 @@ wdf = pd.DataFrame(
 
 
 # load_process_training_data pytest
-# no need to parametrize as there is nothing passed to the function
+# no need to parameterize as there is nothing passed to the function
 def test_load_process_training_data():
     assert isinstance(
         model.load_process_training_data(), pd.core.frame.DataFrame
